@@ -1,6 +1,64 @@
 body{
-    background-color: #a2cebd;
+    background-color:#fff2e9;
     color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*menu1*/
+.link-color{
+    color: green;
+    color:rgb(2500,0,0);
+
+}
+
+#navbarSupportedContent{
+    background-color: #fed5c3;
+}
+
+#btn-busqueda{
+    border-radius: 8px;
+    background-color: #9cc6bc;
+    border-color: #9cc6bc;
+      
+  }
+
+#responsive-img{
+    width: 100%;
+    max-width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#responsive-img2{
+    width: 100%;
+    max-width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-height: 400px;
+}
+
+
+/*cartas*/
+.nav{
+    background-color: #caa88e;
+}
+
+.card{
+    background-color:#caa88e
+}
+
+.btn-primary {
+    color: #8c3005;
+    background-color: #9cc6bc;
+    border-color: #9cc6bc;
+  }
+
+.btn-primary:hover {
+    color: #8c3005;
+    background-color: #eba685;
+    border-color: #eba685;
+  }
+.h1{
+    text-align: center;
+}
