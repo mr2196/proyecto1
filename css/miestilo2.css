@@ -40,6 +40,9 @@ body{
 
 
 /*cartas*/
+.nav{
+    background-color: #caa88e;
+}
 
 .card{
     background-color:#caa88e
@@ -61,15 +64,41 @@ body{
 }
 
 /*index1*/
+h4{
+    color: #e0a0d2;
+    padding-top: 2%;
+    padding-left: 2%;
+
+}
     
 h1{color: #c86714;
+    text-decoration: underline;
 
 }
 #h4{color: #c86714;
 
 }
+nav{
+    width: 20%;
+    height: 100vh;
+    float:left;
+    padding: 5% 0 0 3%;
+}
+
+section{
+    width: 75%;
+    height: 100vh;
+    float:left;
+    text-align: justify;
+}
 
 
+.li{
+    text-transform:uppercase;
+    color: #9cc6bc;
+    
+}
+p{
+    text-transform: lowercase;
 
-
-
+}
