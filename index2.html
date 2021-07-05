@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>registrarse</title>
+    <link rel="stylesheet" href="css/miestilo2.css">
+    <link href="https://fonts.googleapis.com/css?family=:300,400,500,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <form action="" method="POST" id="form">
+        <div class="form">
+            <h1>registro</h1>
+            <div class="grupo">
+                <input type="text" name="nombre" id="nombre"  minlength ="3" required><span class="error"></span>
+                <label for="nombre">Nombre</label>
+                <p>
+
+                </p>
+            </div>
+            <div class="grupo">
+                <input type="email" email="email" id="email" required><span class="barra"></span>
+                <label for="email">E-mail</label>
+                <p>
+
+                </p>
+            </div>
+            <div class="grupo">
+                <input type="password" pass="pass" required><span class="barra"></span>
+                <label for="pass">Contraseña</label>
+                <p>
+
+                </p>
+            </div>
+
+            <button type="submit">Resgistrarte</button>
+            <input type="reset" name="" id="limpiar">
+            <p class="warnings" id="warnings"></p>
+        </div>
+    </form>
+
+
+    <script src="js/app.js"></script>
+    <Script src="js/jquery-3.6.0.js"></Script>
 </body>
 </html>
